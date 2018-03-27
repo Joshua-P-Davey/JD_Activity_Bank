@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormatRange.cs" />
     <Compile Include="Testing_Functionality.cs" />
     <Compile Include="RetrieveWorkbookSheets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

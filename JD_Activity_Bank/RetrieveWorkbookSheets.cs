@@ -24,7 +24,7 @@ namespace JD_Activity_Bank
                 // Check whether provided filepath value is appropriate 
                 if (String.IsNullOrWhiteSpace(in_StrWorkbookFilePath))
                 {
-                    throw (new Exception(String.Format("Provided Path Is Null Or WhiteSpace, Please Review"));
+                    throw (new Exception(String.Format("Provided Path Is Null Or WhiteSpace, Please Review")));
                 }
 
                 // Initialises a new instance of Excel 

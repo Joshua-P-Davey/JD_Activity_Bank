@@ -9,16 +9,18 @@ namespace JD_Activity_Bank
     {
         [Category("Input")]
         [RequiredArgument]
+        [Description("Full path of the workbook.")]
         public InArgument<string> WorkbookFilePath { get; set; }
 
         [Category("Output")]
+        [Description("Sheets available within provided workbook.")]
         public OutArgument<string[]> RetrievedSheets { get;  set; }
 
         protected override void Execute(CodeActivityContext context)
         {
             try
             {
-                // Retrieves the filepath value from the properties pane 
+                // Retrieves the filepath value from the properties pane It 
                 string in_StrWorkbookFilePath = WorkbookFilePath.Get(context);
 
                 // Check whether provided filepath value is appropriate 

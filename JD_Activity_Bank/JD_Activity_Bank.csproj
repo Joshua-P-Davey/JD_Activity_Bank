@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WaitFileExists.cs" />
     <Compile Include="Testing_Functionality.cs" />
     <Compile Include="RetrieveWorkbookSheets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
